@@ -11,11 +11,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(planeteer_calls)
-  i = 0
-  while (i < planeteer_calls.length) do
-    planeteer_calls.length.any? > 4
-    i += 1
-  end
+
 end
 
 def find_valid_calls(planeteer_calls)
